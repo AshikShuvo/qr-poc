@@ -39,7 +39,7 @@ const dialog = useDialog();
 const showScanner= ()=>{
   dialog.open(QrScanner,{
     props:{
-      header:"Order lunch",
+      header:"Scan QR",
       style: {
         width: '50vw',
       },
