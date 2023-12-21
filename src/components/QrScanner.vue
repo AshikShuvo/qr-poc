@@ -19,6 +19,7 @@ import {ref} from "vue";
 const decodedValue = ref('')
 const onDecode=(text:string)=>{
   decodedValue.value=text;
+  navigator.vibrate(5000)
 }
 const onLoaded=()=> {
   console.log(`Ready to start scanning barcodes`)
