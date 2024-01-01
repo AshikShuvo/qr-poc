@@ -22,7 +22,7 @@
         </div>
       </div>
       <div id="order-log">
-
+        <OrderLogTable/>
       </div>
     </div>
   </div>
@@ -33,6 +33,7 @@ import {useDialog} from "primevue/usedialog";
 import MenuList from "./components/MenuList.vue";
 import LunchOrder from "./components/LunchOrder.vue";
 import QrScanner from "./components/QrScanner.vue";
+import OrderLogTable from "./components/OrderLogTable.vue";
 
 const dialog = useDialog();
 

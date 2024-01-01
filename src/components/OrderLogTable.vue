@@ -1,0 +1,90 @@
+<template>
+  <DataTable :value="ordersLogs" scrollable scrollHeight="40vh">
+    <Column field="date" header="Date"></Column>
+    <Column field="day" header="Day"></Column>
+    <Column field="menu" header="Menu"></Column>
+    <Column field="branch" header="Branch"></Column>
+    <Column field="applied" header="Applied"></Column>
+  </DataTable>
+</template>
+<script setup lang="ts">
+const ordersLogs=[
+  {
+    date:"1/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"2/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"3/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"4/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"5/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"6/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"7/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"8/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"9/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"10/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  },
+  {
+    date:"11/12/2023",
+    day:"Saturday",
+    menu:"diet",
+    applied:false,
+    branch:"mirpur"
+  }
+]
+</script>
